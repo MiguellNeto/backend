@@ -1,4 +1,12 @@
 package com.miguelneto.backend;
+/*
+Pegar o projeto 
+Configurar o JUnit no projeto.
+Criar 6 testes unitários para o Projeto.
+Compactar o projeto com os testes unitários e postar como entrega desta atividade.
+A atividade é individual, ou seja, cada aluno terá que fazer o seu e realizar a entrega
+ * 
+*/
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.assertj.core.api.Assertions.assertThat;
