@@ -16,6 +16,8 @@ public class Contact {
 	
 	private String description;
 	
+	private String cpf;
+	
 	private String email;
 	
 	
@@ -25,12 +27,13 @@ public class Contact {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Contact(Long id, String name, String description, String email) {
+	public Contact(Long id, String name, String description, String email, String cpf) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.description = description;
 		this.email = email;
+		this.cpf = cpf;
 	}
 
 	public void setId(Long id) { //usado somente para tes JUnit
@@ -64,6 +67,15 @@ public class Contact {
 	public Long getId() {
 		return id;
 	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+	
 	
 	
 
